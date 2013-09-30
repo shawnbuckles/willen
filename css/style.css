@@ -1,0 +1,185 @@
+/************************************************/
+/*    Vraag me niet andere mensen te worden     */
+/************************************************/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #f2f2f2;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #222;
+    font-family: Skolar, 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+
+/* ---------------------- */
+
+/* typography */
+
+h1, h2, h3 {
+    font-family: 'Helvetica Neue', Helvetica, "pragmatica-web", Arial, sans-serif;
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #BD0000;
+}
+
+h2 {
+    font-size: 2.2em;
+    line-height: 1.4em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: .4em;
+    text-transform: uppercase;
+    font-family: 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
+}
+
+blockquote {
+    font-family: skolar, 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
+    font-size: 2.5em;
+    line-height: 1em;
+    letter-spacing: -0.05em;
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #767362;
+}
+
+.nadruk {
+    border-bottom: solid .2em #036564;
+    padding-bottom: .06em;
+}
+
+/* ---------------------- */
+
+/* lay-out */
+
+section {
+    padding: 60px 0;
+}
+
+.story-content {
+    margin: 0 auto;
+}
+
+.site-width {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.copy-width {
+    width: 82%;
+    margin: 0 auto;
+}
+
+/* ---------------------- */
+
+/* sections */
+
+.aanhef {
+    background: #CCC url('../img/aanhef.png') no-repeat center 85%;
+    padding: 240px 0;
+}
+
+.aanhef h1 {
+    line-height: 1em;
+    color: #222;
+}
+
+/* ---------------------- */
+
+.intro {
+    clear: both;
+}
+
+.intro h2 {
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+.intro h3 {
+    color: #036564;
+    margin: 2em 0 0 0;
+    font-size: 3em;
+}
+
+.intro blockquote {
+    color: #222;
+    margin: 3em 0;
+    font-size: 3.4em;
+}
+
+/* ---------------------- */
+
+.verlangen {
+    background: #400712;
+}
+
+.verlangen h1 {
+    font-size: 5em;
+    line-height: 1em;
+    color: #8C3A4A;
+    text-align: left;
+    margin: .1em 0 .4em;
+}
+
+.verlangen p {
+    color: #8C3A4A;
+    font-size: 1em;
+}
+
+/* ---------------------- */
+
+.succes {
+    background: #A2122F;
+}
+
+.succes p, .succes h1 {
+    color: #FFC2CE;
+}
+
+/* ---------------------- */
+
+.conclusie h1 {
+    font-size: 5em;
+    line-height: 1em;
+    color: #400712;
+    text-align: left;
+    margin: .1em 0 .4em;
+}
+
+/* ---------------------- */
+
+.footer {
+    background: #CCC;
+    color: #222;
+}
